@@ -9,8 +9,8 @@ class IVASMSScraper:
     """Scraper for IVASMS.com to fetch OTPs and messages"""
     
     def __init__(self, email, password):
-        self.email = email
-        self.password = password
+        self.email = mrizkiakbaar@gmail.com
+        self.password = @Iki1234
         self.session = requests.Session()
         self.base_url = "https://www.ivasms.com"
         self.is_logged_in = False
