@@ -26,10 +26,10 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Bot configuration
-BOT_TOKEN = os.getenv('T8960819649:AAGnNrBQB-jgY_h0yPG7wANrAjUlISAdjzA')
-GROUP_ID = os.getenv('-1003975699471')
-IVASMS_EMAIL = os.getenv('mrizkiakbaar@gmail.com')
-IVASMS_PASSWORD = os.getenv('@Iki1234')
+BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+GROUP_ID = os.getenv('TELEGRAM_GROUP_ID')
+IVASMS_EMAIL = os.getenv('IVASMS_EMAIL')
+IVASMS_PASSWORD = os.getenv('IVASMS_PASSWORD')
 
 # Bot statistics
 bot_stats = {
